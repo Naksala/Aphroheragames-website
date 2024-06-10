@@ -3,7 +3,7 @@ module.exports = {
   cacheMaxMemorySize: 0, // disable default in-memory caching
 
   generateBuildId: async () => {
-    // This could be anything, using the latest git hash
-    return process.env.GIT_HASH
+    // Generate a unique build ID here
+    return 'my-build-id';
   },
 }
