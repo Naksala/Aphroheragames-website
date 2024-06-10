@@ -1,6 +1,4 @@
-// next.config.js
-
 module.exports = {
-  output: 'export',
-  
-};
+  cacheHandler: require.resolve('./cache-handler.js'),
+  cacheMaxMemorySize: 0, // disable default in-memory caching
+}
