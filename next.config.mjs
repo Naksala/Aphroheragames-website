@@ -7,15 +7,9 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
+  // next.config.js
 module.exports = {
-  env: {
-    EMAIL_USER: process.env.EMAIL_USER,
-    EMAIL_PASS: process.env.EMAIL_PASS,
-    RECEIVING_EMAIL: process.env.RECEIVING_EMAIL,
-  },
-  trailingSlash: true,
-  images: {
-    loader: 'akamai',
-    path: '',
-  },
-};
+    output: 'export',  
+    basePath: '/Aphroheragames-website',
+    assetPrefix: '/Aphroheragames-website/',
+  };
