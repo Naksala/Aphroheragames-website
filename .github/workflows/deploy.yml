@@ -9,11 +9,9 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - name: Use Node.js v20.x
+        uses: actions/setup-node@v3
 
-      - name: Install Node.js
-        uses: actions/setup-node@v2
         with:
           node-version: $(cat .nvmrc)
 
