@@ -1,4 +1,4 @@
-const nextConfig = {
+export default {
     // Set the base path to match your custom domain
     basePath: '/',
   
@@ -16,6 +16,4 @@ const nextConfig = {
     //   ];
     // },
   };
-  
-  module.exports = nextConfig;
   
