@@ -1,19 +1,13 @@
-export default {
-    // Set the base path to an empty string
-    basePath: '',
+// next.config.js
+
+module.exports = {
+    // Set the output directory for static exports
+    output: 'export',
   
-    // Set the asset prefix to the root directory
-    assetPrefix: '/',
+    // Optionally, you can specify a base path if your application is deployed in a subdirectory
+    // basePath: '/Aphroheragames-website',
   
-    // Optional: If you're using a custom domain, you might want to specify the domain for routing
-    // Replace 'your-custom-domain.com' with your actual domain
-    // async rewrites() {
-    //   return [
-    //     {
-    //       source: '/:path*',
-    //       destination: `https://your-custom-domain.com/:path*`,
-    //     },
-    //   ];
-    // },
+    // Optionally, you can specify an asset prefix if your assets are hosted on a different domain
+    // assetPrefix: '/Aphroheragames-website/',
   };
   
