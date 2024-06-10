@@ -13,25 +13,11 @@ const Contact = forwardRef(function ContactComponent(props, ref) {
     });
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus('Sending...');
+  const handleSubmit = (e) => {
 
-    const response = await fetch('/api/send-email', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData),
-    });
+  }
 
-    if (response.ok) {
-      setStatus('Message sent successfully!');
-      setFormData({ name: '', email: '', message: '' });
-    } else {
-      setStatus('Failed to send message.');
-    }
-  };
+
 
   return (
     <div className="bg-fixed bg-cover" style={{ backgroundImage: `url(${ASSETS.images.background})` }}>
