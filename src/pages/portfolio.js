@@ -15,9 +15,9 @@ export default function Portfolio() {
           <h2 className="text-3xl mb-4 text-center">Portfolio</h2>
           <p className="mx-auto max-w-2xl">Here are some of our recent successes:</p>
           <ul className="mx-auto max-w-2xl">
-            <li className="mb-4">"Mystic Realms": An epic fantasy RPG captivating players with rich storytelling and stunning visuals.</li>
-            <li className="mb-4">"Galactic Conquest": A space strategy game beloved for its deep mechanics and engaging gameplay.</li>
-            <li className="mb-4">"Dreamweaver's Quilt": A cozy, imaginative puzzle game charming players with its unique concept and beautiful art.</li>
+            <li className="mb-4">&quot;Mystic Realms&quot;: An epic fantasy RPG captivating players with rich storytelling and stunning visuals.</li>
+            <li className="mb-4">&quot;Galactic Conquest&quot;: A space strategy game beloved for its deep mechanics and engaging gameplay.</li>
+            <li className="mb-4">&quot;Dreamweaver&apos;s Quilt&quot;: A cozy, imaginative puzzle game charming players with its unique concept and beautiful art.</li>
           </ul>
         </section>
       </main>

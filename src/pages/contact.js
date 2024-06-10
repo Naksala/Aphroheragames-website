@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { ASSETS } from '../utils/constants';
 import { forwardRef, useState } from 'react';
 
-const Contact = forwardRef((props, ref) => {
+const Contact = forwardRef(function ContactComponent(props, ref) {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [status, setStatus] = useState('');
 
@@ -41,7 +41,7 @@ const Contact = forwardRef((props, ref) => {
       <main className="p-4">
         <section ref={ref} id="contact" className="py-12 sm:py-24 bg-black bg-opacity-80">
           <h2 className="text-3xl mb-4 text-center">Contact Us</h2>
-          <p className="mx-auto max-w-2xl mb-8 text-center">We're excited to hear from you! Contact us today to discuss your project and explore how we can collaborate to make your next game a success.</p>
+          <p className="mx-auto max-w-2xl mb-8 text-center">We&apos;re excited to hear from you! Contact us today to discuss your project and explore how we can collaborate to make your next game a success.</p>
           <form onSubmit={handleSubmit} className="max-w-2xl mx-auto bg-gray-800 p-8 rounded-lg shadow-lg">
             <div className="mb-4">
               <label htmlFor="name" className="block text-lg mb-2">Name</label>
