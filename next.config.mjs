@@ -1,6 +1,6 @@
 export default {
-    // Set the base path to match your custom domain
-    basePath: '/',
+    // Set the base path to an empty string
+    basePath: '',
   
     // Set the asset prefix to the root directory
     assetPrefix: '/',
